@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files for more about ignoring files.
+
+# common
+.DS_Store
+cache
+.bundle
+.idea
+.vscode
+
+!.keep
+
+tmp/
+log/
+
+# node
+node_modules
+out
+coverage
+dist
+
+# terraform
+.terraform
+.terraform.lock.hcl
+terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+.terragrunt-cache
+
+# credentials
+master.key
+.env*
+!env.example
